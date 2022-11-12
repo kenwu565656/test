@@ -23,7 +23,7 @@ else:
     total_request_size = total_request_size.split(" ")
     shopValue = getValue(total_size_in_shop)
     resquestValue = getValue(total_request_size)
-    if shopValue > resquestValue:
+    if shopValue >= resquestValue:
         print("Yes")
     else:
         print("No")
