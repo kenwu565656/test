@@ -19,7 +19,6 @@ def getValue(mylist):
 if int(total_request_num) > int(total_num_in_shop):
     print("No")
 else:
-    value = 0
     total_size_in_shop = total_size_in_shop.split(" ")
     total_request_size = total_request_size.split(" ")
     shopValue = getValue(total_size_in_shop)
