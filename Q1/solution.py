@@ -8,11 +8,11 @@ def getValue(mylist):
     value = 0
     for i in mylist:
         if i.find("S", -1) != -1:
-            value += 0.9 * len(i)
+            value += 0.9 ** len(i)
         elif i.find("M", -1) != -1:
             value += 1
         else:
-            value += 1.1 * len(i)
+            value += 1.1 ** len(i)
     return value
 
 
